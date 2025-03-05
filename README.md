@@ -1,2 +1,2 @@
 ## An Expense Tracker App made
-### https://expense-tracker-psi-ochre.vercel.app/
+### Live:  https://expense-tracker-psi-ochre.vercel.app/
