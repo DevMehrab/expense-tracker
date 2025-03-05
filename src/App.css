@@ -1,0 +1,100 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Open Sans", sans-serif;
+}
+body {
+  background-color: aliceblue;
+}
+.container{
+  width: 100vw;
+  max-width: 600px;
+  margin: auto;
+  padding: 10px;
+}
+.balance{
+  background-color: lightblue;
+  padding: 10px;
+  border-radius: 5px;
+  margin: 10px 0;
+}
+.form{
+  display: flex;
+  flex-direction: column;
+}
+main{
+  width: 100%;
+}
+.display-summury{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 30px;
+  margin: 20px  0;
+}
+
+input, button{
+  width: 100%;
+  margin: 10px 0;
+  padding: 10px;
+}
+
+.display-summury div{
+  padding: 10px;
+  border-radius: 5px;
+  margin: 10px 0;
+}
+
+.finance-card-income{
+  background-color: rgba(144, 238, 144, 0.37);
+}
+.finance-card-expense{
+  background-color: rgba(240, 128, 128, 0.329);
+}
+
+input{
+  border: none;
+  border: 1px solid rgb(208, 224, 255);
+  border-radius: 5px;
+}
+.add-btn{
+  background-color: cornflowerblue;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 10px;
+  cursor: pointer;
+}
+.add-btn:hover{
+  background-color: rgb(80, 134, 235);
+}
+
+.transaction-card{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  border-radius: 5px;
+  margin: 5px 0;
+}
+.transaction-card button{
+  background-color: rgb(236, 153, 153);
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 5px;
+  cursor: pointer;
+  height: 30px;
+  width: 30px;
+}
+
+.green-card{
+  background-color: rgba(153, 205, 50, 0.13);
+}
+.red-card{
+  background-color: rgba(205, 55, 50, 0.13);
+}
