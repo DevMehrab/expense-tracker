@@ -3,7 +3,7 @@ import { Appcontext } from '../App.jsx';
 
 export const TransactionCard = ({ title, amount, id, isIncome }) => {
     const cardRef = useRef(null)
-    const { update, currentValue } = useContext(Appcontext)
+    const { update } = useContext(Appcontext)
     function handleClick() {
 
         update.transactions(prev => prev.filter((_, index) => index !== id))
